@@ -1,0 +1,55 @@
+:root {
+	--pbackground: #191970;
+	--sbackground: #000080;
+	--primary: #ffffff;
+	--secondary: #00ff7f;
+	--tertiary: hsl(0, 0%, 0%);
+}
+
+* {
+	color: var(--primary);
+}
+
+body {
+	background-color: var(--pbackground);
+}
+
+nav {
+	background-color: var(--sbackground);
+	position: sticky;
+}
+
+h3 {
+	font-size: 2vw;
+}
+
+p {
+	font-size: 1.5vw;
+}
+
+.nav-link {
+	float: right;
+}
+
+section {
+	background-color: var(--sbackground);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+
+header {
+	border-style: solid;
+	border-width: 0px;
+	border-color: var(--secondary);
+	border-bottom-width: 3px;
+	padding-left: 10px;
+}
+
+img {
+	opacity: 50%;
+}
+
+address {
+	text-align: center;
+}
